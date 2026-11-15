@@ -1,0 +1,51 @@
+# Buku Panduan Onboarding PT Sakura Soft
+
+Selamat datang di tim! Buku ini ditulis bersama oleh karyawan baru. Tiap orang menulis satu bab tentang satu perintah Linux, lalu menggabungkannya ke buku ini.
+
+## Cara berkontribusi
+
+1. Clone repo ini pakai SSH.
+2. Buat branch atas ID kamu: `git switch -c P07`
+3. Tulis bab kamu di `docs/` sesuai tabel di bawah.
+4. Commit minimal 3 kali, contoh pesan: `docs: add contoh ps aux`
+5. Tambahkan link bab kamu di bawah judul **Daftar Isi**.
+6. Merge ke `main`: `git switch main` → `git pull` → `git merge P07` → `git push`
+7. Push ditolak? `git pull`, bereskan conflict, lalu push lagi. Dilarang `git push --force`.
+
+## Pembagian topik
+
+| ID | Topik | Nama file |
+| --- | --- | --- |
+| P01 | pwd, ls, cd | docs/P01-pwd-ls-cd.md |
+| P02 | mkdir, cp, mv, rm | docs/P02-mkdir-cp-mv-rm.md |
+| P03 | cat, head, tail, less | docs/P03-cat-head-tail.md |
+| P04 | grep | docs/P04-grep.md |
+| P05 | find | docs/P05-find.md |
+| P06 | chmod, ls -l | docs/P06-chmod.md |
+| P07 | ps, kill, top | docs/P07-ps-kill.md |
+| P08 | curl | docs/P08-curl.md |
+| P09 | tar, zip | docs/P09-tar-zip.md |
+| P10 | export, .env | docs/P10-export-env.md |
+
+## Isi tiap bab
+
+- Judul dan satu kalimat kegunaan perintah
+- 3 contoh perintah + output dari laptop kamu sendiri
+- 1 kesalahan umum dan cara menghindarinya
+
+## Daftar CV
+- P11 - Muhammad Wijdan Alkhalid
+- P00 - Idan Al-Khalid
+- P04 - M Seagate Alfatih
+- P02 - Ahmad Fauzi Ariyanto
+- P09 - Noviana Nur Shanti
+- P08 - Aulia Rahman Mahyuddin (Agam)
+- P07 - Ikhsan Catur
+
+## Daftar Isi
+- [P00 — cara mengerjakan tugas](docs/P00-cara-mengerjakan-tugas.md)
+- [P00 — date](docs/P00-date.md)
+- [P09 - Ona](docs/P09-Ona.md)
+- [P09 - Tar & Zip](docs/P09-tar-zip.md) 
+- [P08 - Aulia Rahman M](docs/P08%20-%20Aulia%20Rahman%20M.md)
+- [P08-curl.md](docs/P08-curl.md)
